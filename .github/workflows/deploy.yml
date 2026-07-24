@@ -1,5 +1,4 @@
-
-             name: Deploy HTML to Azure Container Apps
+name: Deploy HTML to Azure Container Apps
 
 on:
   push:
@@ -45,15 +44,3 @@ jobs:
             --name $CONTAINER_APP \
             --resource-group $RESOURCE_GROUP \
             --image $REGISTRY/$IMAGE_NAME:${{ github.sha }}
-
-         
-        
-
-
-
-
-
-          
-         
-
-     -
