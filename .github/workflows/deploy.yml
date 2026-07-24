@@ -8,7 +8,7 @@ on:
 env:
   IMAGE_NAME: html-app
   REGISTRY: ${{ secrets.ACR_LOGIN_SERVER }}
-  RESOURCE_GROUP: rg
+  RESOURCE_GROUP: rg 
   CONTAINER_APP: mycontt
  
 jobs:
