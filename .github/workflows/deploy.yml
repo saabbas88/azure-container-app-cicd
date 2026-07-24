@@ -10,7 +10,7 @@ env:
   REGISTRY: ${{ secrets.ACR_LOGIN_SERVER }}
   RESOURCE_GROUP: rg
   CONTAINER_APP: mycontt
-
+ 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
